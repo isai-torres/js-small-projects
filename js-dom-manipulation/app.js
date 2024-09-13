@@ -75,8 +75,32 @@ console.log(firstIngredient.classList);*/
 
 // 5. Adding classes
 
-const firstIngredient = document.querySelector('.ingredients');
-
+/*const firstIngredient = document.querySelector('.ingredients');
 firstIngredient.classList.add('myIngredient');
+console.log(firstIngredient.classList);*/
 
-console.log(firstIngredient.classList);
+// 6. Check for classes
+
+/*const primerToping = document.querySelector('.ingredients');
+console.log(primerToping.classList.contains('background-brown'));
+console.log(primerToping.classList);*/
+
+// 7. Delete classes
+
+/*const primerToping = document.querySelector('.ingredients');
+primerToping.classList.remove('background-brown');
+console.log(primerToping.classList);*/
+
+/* 
+The classList property is a read-only property of an HTML element that returns a live
+DOMTokenList collection of the class attributes of the element. This provides methods to add,
+remove, toggle and check for the presence of CSS classes on a element.
+
+Here are some common methods available on classList:
+
+- add() Adds the specified class to the element
+- remove() Removes the specified class from the element.
+- toggle()  Toggles the specified class on the element.
+- contains() Check if the element contains the specified class.
+- replace()  Replaces an existing class with a new class.
+*/
