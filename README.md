@@ -1,5 +1,6 @@
-<img src="images/js-banner.png" alt="javascript-banner">
+<img src="https://github.com/user-attachments/assets/aca10e20-08f0-44c5-b404-b3cf6b5bece5" alt="javascript-banner">
 
+<br>
 <br>
 
 <p>This repository is a collection of various online tutorials and projects aimed at learning HTML, CSS, and JavaScript. It includes examples ranging from basic to advanced concepts, designed to help you build and improve your web development skills.</p>
