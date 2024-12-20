@@ -1,0 +1,61 @@
+body {
+  background-image: url(images/cloud-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #009aff;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 3px solid white;
+
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
