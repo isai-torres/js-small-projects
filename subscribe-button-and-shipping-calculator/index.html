@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Meta-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--JavaScript-->
+  <script defer src="script.js"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+  <!--Title-->
+  <title>Subscribe Button and Shipping Calculator</title>
+
+</head>
+<body>
+
+  <!--YouTube Subscribe Button-->
+  <section class="container">
+
+    <div class="youtube-button">
+
+      <h1 class="subscribe-title">YouTube Subscribe Button</h1>
+
+      <button class="subscribe-button js-subscribe-button" onclick="
+        subscribe();
+      ">Subscribe</button>
+
+    </div>
+
+    <br>
+    <br>
+
+    <!--Shipping Calculator-->
+    <div class="shipping-calculator">
+
+      <p>Amazon Shipping Calculator</p>
+
+      <p>Orders under $40 = +$10 shipping.</p>
+
+      <p>Orders over $40 = FREE shipping.</p>
+
+      <input class="js-calculate-button calculate-box" type="text" placeholder="Cost of order" required onkeydown="
+        handleCostKeydown(event)
+      ">
+      <button class="calculate-button" onclick="
+        calculateTotal();
+      ">Calculate</button>
+
+      <p class="js-total"></p>
+
+      <button class="reset-button js-reset-button" onclick="
+        resetTotal()
+      ">Reset</button>
+
+    </div>
+  </section>
+</body>
+</html>
