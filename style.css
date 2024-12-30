@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(0deg, #f3e579, #ebebea 80%);
+  background: linear-gradient(0deg, #f3e579, #ebebea 60%);
 }
 
 /* Header */
@@ -16,7 +16,7 @@ header {
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .description {
@@ -25,6 +25,7 @@ header {
   align-items: center;
   line-height: 80px;
   margin: 0 25px 0 0;
+  font-size: 16px;
 }
 
 .description h1 {
@@ -47,4 +48,35 @@ header {
 .logo img {
   border-radius: 8px;
   transform: rotate(10deg);
+}
+
+/* Mission Container */
+
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 150px 0;
+}
+
+.mission-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 715px;
+  font-size: 18px;
+  gap: 15px;
+}
+
+.mission-description p {
+  font-family: "Poppins", serif;
+  font-size: 1em;
+}
+
+.mission-description img {
+  border-radius: 8px;
+  border: 2px outset #f7df1e;
+  transform: rotate(4deg);
 }
