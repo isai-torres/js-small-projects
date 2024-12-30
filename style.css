@@ -80,3 +80,34 @@ header {
   border: 2px outset #f7df1e;
   transform: rotate(4deg);
 }
+
+/* Projects */
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 16px 0 0 0;
+}
+
+.projects div {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.projects a img {
+  width: 100%;
+  border-radius: 10px 10px 60px 60px;
+}
+
+.projects a:hover {
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
