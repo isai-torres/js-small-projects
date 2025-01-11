@@ -121,7 +121,7 @@ header {
   height: 100px;
 }
 
-.link-icons {
+.link-icons-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -131,26 +131,46 @@ header {
   font-size: 1.2em;
 }
 
-.link-icons a {
+.github-link {
   display: flex;
   align-items: center;
-  color: black;
+  color: #874af6;
   text-decoration: none;
-  border: 1px solid black;
+  border: 1px solid #874af6;
   border-radius: 6px;
-  padding: 4px 10px;
+  padding: 2px 10px;
 }
 
-.link-icons a:hover {
-  transition: all 0.2s ease;
-  background-color: #ebebea86;
-}
-
-.icon {
+.github-icon {
   font-size: 1em;
+}
+
+.github-link:hover {
+  transition: all 0.2s ease;
+  background-color: #864af64d;
+}
+
+.demo-link {
+  display: flex;
+  align-items: center;
+  color: #d10b0b;
+  text-decoration: none;
+  border: 1px solid #d10b0b;
+  border-radius: 6px;
+  padding: 2px 10px;
+}
+
+.demo-icon {
+  font-size: 1em;
+}
+
+.demo-link:hover {
+  transition: all 0.2s ease;
+  background-color: #d10b0b4d;
 }
 
 .icon-text {
   font-size: 0.8em;
   margin-left: 5px;
+  color: black;
 }
